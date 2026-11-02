@@ -1,17 +1,17 @@
 # Start Here
 
-This folder contains the project report, code, and demo. The source datasets are already in the parent folder. You do not need to move or rename them.
+This repository contains the project source code, run instructions, evaluation results, and viva notes. The formal report and presentation are separate university-submission files. Raw data and the trained model are not included in the public repository.
 
 ## Before you submit
 
-1. Fill in your name, roll number, college/department, and guide on the report and first presentation slide.
+1. Fill in your name, roll number, college/department, and guide on the separate report and first presentation slide.
 2. Ask your guide whether your college has a required cover page, certificate, declaration, or report format. If it does, use that format.
 3. Run the project once and copy the measured values from `artifacts/metrics.json` into the report's Results table. Never submit invented performance scores.
 4. Start the demo and try one review before your viva.
 
 ## Run the project on Windows
 
-Open PowerShell in this `submission` folder. In File Explorer, open the folder, click the address bar, type `powershell`, and press Enter. Copy and run these commands one at a time:
+Obtain the university-provided data and place `training_reviews.csv` and `extracted_dataset/public_reviews_dataset_cleaned.csv` in the folder one level above this project folder. Open PowerShell in this project folder. In File Explorer, click the address bar, type `powershell`, and press Enter. Copy and run these commands one at a time:
 
 ```powershell
 py -m venv .venv
