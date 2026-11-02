@@ -1,0 +1,13 @@
+__pycache__/
+artifacts/*.joblib
+artifacts/*.csv
+data/
+.venv/
+.build/
+output/
+report.docx
+report.md
+SHARE_WITH_STAFF.md
+build_deck.mjs
+build_report.mjs
+finalize_deck.mjs

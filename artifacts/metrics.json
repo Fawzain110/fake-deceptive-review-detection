@@ -1,0 +1,33 @@
+{
+  "dataset_rows": 80281,
+  "reviewers": 36764,
+  "products": 3031,
+  "class_counts": {
+    "0": 22614,
+    "1": 57667
+  },
+  "backend": "tfidf",
+  "review_random_split_hybrid": {
+    "accuracy": 0.7888771252413278,
+    "precision_fake": 0.9123126771972458,
+    "recall_fake": 0.7811687185711809,
+    "f1_fake": 0.8416627744044839,
+    "f1_macro": 0.7624793692650222
+  },
+  "reviewer_disjoint_cold_start_text_only": {
+    "accuracy": 0.7235017335314512,
+    "precision_fake": 0.8596543209876544,
+    "recall_fake": 0.7408290067239766,
+    "f1_fake": 0.7958306665447563,
+    "f1_macro": 0.6838213735408345
+  },
+  "review_random_split_sizes": {
+    "train": 64224,
+    "test": 16057
+  },
+  "reviewer_disjoint_split_sizes": {
+    "train": 64129,
+    "test": 16152
+  },
+  "caveat": "Labels are supplied reviewer-classification labels, not independently adjudicated fraud ground truth."
+}
